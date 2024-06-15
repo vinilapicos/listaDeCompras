@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#input{
+    text-align: center;
+}
+body{
+    font-family: "Mumblers Demo";
+    background: #FEEDDD;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.Compras{
+    width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    background: white;
+    box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.5);
+}
+.Compras h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 1em;
+}
+.Compras i{
+    font-size: 2rem;
+    color: #f1b175;
+}
+.Compras input{
+    text-align: center;
+    font-family: inherit;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+    width: 70%;
+    font-size: 1.5rem;
+}
+#itens h2{
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 2rem;
+}
+
+@media(max-width:480px){
+    .Compras h1{
+        font-size: 2rem;
+    }
+    .Compras i{
+        font-size: 1.5rem;
+    }
+    .Compras input{
+        font-size: 1rem;
+    }
+    #itens{
+        margin-left: 25px;
+        font-size: 1.5rem;
+    }
+}
